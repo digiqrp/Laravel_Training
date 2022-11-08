@@ -38,6 +38,8 @@ services:
   php-xdebug:
     env_file: .env
     build: './docker/php/dev/'
+    extra_hosts:
+      - host.docker.internal:host-gateway
     volumes:
       *php-volumes
 
