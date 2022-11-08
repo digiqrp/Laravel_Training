@@ -15,7 +15,6 @@
         public function index()
         {
             $environment = App::environment();
-            var_dump($environment);
             return view('welcome',['environment'=>$environment]);
         }
 

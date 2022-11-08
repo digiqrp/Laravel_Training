@@ -19,3 +19,6 @@ docker-compose.yaml
 
 /storage/
 /docker-compose.yml
+/public/css/app.css
+/public/js/app.js
+/public/mix-manifest.json
